@@ -5,30 +5,35 @@ Popis korištenih paketa i upute za instalaciju:
 -numpy
 -matplotlib.pyplot
 
+-plotly.figure_factory
+-plotly.express 
+-plotly.io   
+conda install -c plotly plotly=4.14.3 (unos u terminal)
+
 -seaborn
-conda install seaborn
+conda install seaborn (unos u terminal)
 
 
 -plotly.figure_factory
 -plotly.express 
 -plotly.io   
-conda install -c plotly plotly=4.14.3
+conda install -c plotly plotly=4.14.3 (unos u terminal)
 
 -random
-pip install random
+pip install random (unos u terminal)
 
 -scipy.stats -> shapiro
 -scipy.stats -> normaltest
 -scipy.stats -> anderson
 -scipy.stats -> chi2_contingency
-pip install scipy
+pip install scipy  (unos u terminal)
 
 -from fancyimpute import IterativeImputer as MICE
-pip install fancyimpute
+pip install fancyimpute (unos u terminal)
 
 -sklearn.model_selection -> train_test_split
 -sklearn -> linear_model
 -sklearn.metrics -> classification_report,confusion_matrix
 -sklearn.tree -> DecisionTreeClassifier
-pip install -U scikit-learn
+pip install -U scikit-learn (unos u terminal)
 
